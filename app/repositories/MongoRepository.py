@@ -2,11 +2,12 @@ import math
 from pymongo import MongoClient, DESCENDING, ASCENDING
 from bson.objectid import ObjectId
 from datetime import datetime
+from config import Config
 
 class MongoRepository:
     def __init__(self, collection_name):
-        self.client = MongoClient('mongodb://localhost:27017/')
-        self.db = self.client['digidocu']
+        self.client = MongoClient(Config.MONGO_URI)
+        self.db = self.client[Config.MONGO_DBNAME]
         self.collection = self.db[collection_name]
 
     def __add_updated_at(self, data):

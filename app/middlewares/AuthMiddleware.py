@@ -3,7 +3,7 @@ from flask import abort, request
 import jwt
 from config import Config
 
-def check_auth(role, check_department: bool = False):
+def check_auth(role):
     def decorator(f):
         @wraps(f)
         def wrapper(*args, **kwargs):
