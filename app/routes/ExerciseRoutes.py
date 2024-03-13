@@ -1,7 +1,8 @@
 from flask import Blueprint, request, jsonify, Response
 from app.middlewares.AuthMiddleware import check_auth
 from app.repositories.MongoRepository import MongoRepository
-
+from jsonschema import validate
+from app.schemas.CustomExeciseSchema import customExerciseSchema
 from bson import ObjectId
 from bson.json_util import dumps
 from app.utils.Roles import UserRole
@@ -41,6 +42,11 @@ def get_one(id):
 def create():
     data = request.get_json()
 
+    try:
+        validate(instance=data, schema=customExerciseSchema)
+    except Exception as e:
+        return jsonify({'error': 'Invalid data'}), 400
+
     user = repo.get_one(request.user_id)
 
     if user['vip'] == False:
@@ -48,13 +54,13 @@ def create():
 
     exercise: dict = {
         "name": escape(data['name']),
-        "description": escape(data['description']),
-        "category": escape(data['category']),
-        "equipment": escape(data['equipment']),
+        "description": escape(data['description']) if 'description' in data else '',
+        "category": escape(data['category']) if 'category' in data else '',
+        "equipment": escape(data['equipment']) if 'equipment' in data else '',
         "muscle": escape(data['muscle']),
-        "secondary_muscle": escape(data['secondary_muscle']),
-        "video": escape(data['video']),
-        "image": escape(data['image']),
+        "secondary_muscle": escape(data['secondary_muscle']) if 'secondary_muscle' in data else '',
+        "video": escape(data['video']) if 'video' in data else '',
+        "image": escape(data['image']) if 'image' in data else '',
         "custom": True
     }
 
@@ -68,6 +74,11 @@ def create():
 def update(id):
     data = request.get_json()
 
+    try:
+        validate(instance=data, schema=customExerciseSchema)
+    except Exception as e:
+        return jsonify({'error': 'Invalid data'}), 400
+
     user = repo.get_one(request.user_id)
 
     if user['vip'] == False:
@@ -79,13 +90,13 @@ def update(id):
         return jsonify({'error': 'Not found'}), 404
 
     exercise['name'] = escape(data['name'])
-    exercise['description'] = escape(data['description'])
-    exercise['category'] = escape(data['category'])
-    exercise['equipment'] = escape(data['equipment'])
+    exercise['description'] = escape(data['description']) if 'description' in data else ''
+    exercise['category'] = escape(data['category']) if 'category' in data else ''
+    exercise['equipment'] = escape(data['equipment']) if 'equipment' in data else ''
     exercise['muscle'] = escape(data['muscle'])
-    exercise['secondary_muscle'] = escape(data['secondary_muscle'])
-    exercise['video'] = escape(data['video'])
-    exercise['image'] = escape(data['image'])
+    exercise['secondary_muscle'] = escape(data['secondary_muscle']) if 'secondary_muscle' in data else ''
+    exercise['video'] = escape(data['video']) if 'video' in data else ''
+    exercise['image'] = escape(data['image']) if 'image' in data else ''
 
     repo.update(id, exercise)
 
