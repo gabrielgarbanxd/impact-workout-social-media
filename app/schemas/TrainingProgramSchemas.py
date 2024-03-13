@@ -1,4 +1,21 @@
-trainingProgramSchema:dict = {
+trainingProgramPostSchema:dict = {
+    "type": "object",
+    "properties": {
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "exercises": { "type": "array", "items": { "type": "object", "properties": {
+            "_id": { "type": "object" },
+            "sets": { "type": "array", "items": { "type": "object", "properties": {
+                "reps": { "type": "integer" },
+                "weight": { "type": "integer" }
+            } } }
+        } } }
+    },
+    "required": ["name", "description", "exercises"]
+}
+
+
+trainingProgramPutSchema:dict = {
     "type": "object",
     "properties": {
         "name": { "type": "string" },

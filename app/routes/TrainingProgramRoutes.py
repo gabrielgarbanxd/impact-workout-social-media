@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify, Response
 from app.middlewares.AuthMiddleware import check_auth
 from app.repositories.MongoRepository import MongoRepository
-from app.schemas.TrainingProgramSchemas import trainingProgramSchema
+from app.schemas.TrainingProgramSchemas import trainingProgramPostSchema, trainingProgramPutSchema
 from jsonschema import validate
 from bson import ObjectId
 from bson.json_util import dumps
@@ -39,13 +39,22 @@ def create():
     data = request.get_json()
 
     try:
-        validate(instance=data, schema=trainingProgramSchema)
+        validate(instance=data, schema=trainingProgramPostSchema)
     except Exception as e:
         return jsonify({'error': 'Invalid data'}), 400
+    
+    trainingProgram:dict ={
+        "name": escape(data['name']),
+        "description": escape(data['description']),
+        "exercises": data['exercises'],
+        "avg_duration": 0,
+        "avg_volume": 0,
+        "avg_reps": 0,
+        "avg_sets": 0,
+        "user_id": ObjectId(request.user_id),
+    }
 
-    data['user_id'] = ObjectId(request.user_id)
-
-    result = repo.insert(data).inserted_id
+    result = repo.insert(trainingProgram).inserted_id
 
     return jsonify({'success': True, '_id': str(result)}), 201
 
@@ -56,7 +65,7 @@ def update(id):
     data = request.get_json()
 
     try:
-        validate(instance=data, schema=trainingProgramSchema)
+        validate(instance=data, schema=trainingProgramPutSchema)
     except Exception as e:
         return jsonify({'error': 'Invalid data'}), 400
 
@@ -69,9 +78,13 @@ def update(id):
         return jsonify({'error': 'Unauthorized'}), 401
     
 
-    for key in data:
-        if key != 'user_id' and key != '_id' and key != 'created_at' and training_program.get(key) is not None:
-            training_program[key] = data[key]
+    training_program['name'] = escape(data['name'])
+    training_program['description'] = escape(data['description'])
+    training_program['avg_duration'] = data['avg_duration']
+    training_program['avg_volume'] = data['avg_volume']
+    training_program['avg_reps'] = data['avg_reps']
+    training_program['avg_sets'] = data['avg_sets']
+    training_program['exercises'] = data['exercises']
 
     repo.update(id, training_program)
 
@@ -91,5 +104,8 @@ def delete(id):
         return jsonify({'error': 'Unauthorized'}), 401
 
     repo.delete(id)
+
+    trainingRepo = MongoRepository('trainings')
+    trainingRepo.delete_by_query({'training_program_id': ObjectId(id)})
 
     return jsonify({'success': True}), 200

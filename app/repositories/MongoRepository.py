@@ -161,3 +161,6 @@ class MongoRepository:
 
     def delete_all(self):
         return self.collection.delete_many({})
+    
+    def delete_by_query(self, query):
+        return self.collection.delete_many(query)
