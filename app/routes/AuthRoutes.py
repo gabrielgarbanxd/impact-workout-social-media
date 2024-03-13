@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify, current_app
 from app.repositories.MongoRepository import MongoRepository
 from app.utils.Security import Security
 from jsonschema import validate
@@ -84,6 +84,8 @@ def register():
     
     encoded_token = Security.generate_token(user)
 
+    current_app.mail_sender.send_mail(user['email'], 'Email Verification', f'Your verification code is: {user["email_verification_code"]}')
+
     return jsonify({'success': True, 'token': encoded_token, 'role': user['role']}), 201
 
 
@@ -107,3 +109,25 @@ def verify_email_code():
         return jsonify({'error': 'Invalid code'}), 400
     
     repo.update(user['_id'], {'email_verified': True, 'email_verification_code': None})
+
+    return jsonify({'success': True}), 200
+
+
+@auth.route('/resend-verification-code', methods=['POST'])
+def resend_verification_code():
+    data = request.get_json()
+
+    if 'email' not in data:
+        return jsonify({'error': 'Invalid data'}), 400
+    
+    user = repo.get_one_by('email', data['email'])
+
+    if user is None:
+        return jsonify({'error': 'User not found'}), 404
+    
+    if 'email_verification_code' not in user:
+        return jsonify({'error': 'User not found'}), 404
+    
+    current_app.mail_sender.send_mail(user['email'], 'Email Verification', f'Your verification code is: {user["email_verification_code"]}')
+
+    return jsonify({'success': True}), 200
