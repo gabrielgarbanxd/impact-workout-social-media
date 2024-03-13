@@ -22,35 +22,103 @@ class ApiService:
         return headers
 
     def get(self, endpoint, auth=True, params={}, is_blob=False):
-        headers = self.get_headers(auth)
-        response = requests.get(f"{self.base_url}/{endpoint}", headers=headers, params=params)
+        try:
+            headers = self.get_headers(auth)
+            response = requests.get(f"{self.base_url}/{endpoint}", headers=headers, params=params)
 
-        if is_blob:
-            return response.content
+            if is_blob:
+                return response.content
+            
+            if response.status_code == 401:
+                print("Unauthorized")
+                return None
+            
+            if response.status_code == 404:
+                print("Not Found")
+                return None
+            
+            if response.status_code == 500:
+                print("Internal Server Error")
+                return None
+            
+            if response.status_code == 400:
+                print("Bad Request")
 
-        response.raise_for_status()
-        return response.json()
+            return response.json()
+        except:
+            return None
 
     def post(self, endpoint, data=None, auth=True, files=False):
-        headers = self.get_headers(auth, files)
-        response = requests.post(f"{self.base_url}/{endpoint}", headers=headers, json=data)
+        try:
+            headers = self.get_headers(auth, files)
+            response = requests.post(f"{self.base_url}/{endpoint}", headers=headers, json=data)
 
-        response.raise_for_status()
-        return response.json()
+            if response.status_code == 401:
+                print("Unauthorized")
+                return None
+            
+            if response.status_code == 404:
+                print("Not Found")
+                return None
+            
+            if response.status_code == 500:
+                print("Internal Server Error")
+                return None
+            
+            if response.status_code == 400:
+                print("Bad Request")
+
+            return response.json()
+        except:
+            return None
 
     def put(self, endpoint, data=None, auth=True):
-        headers = self.get_headers(auth)
-        response = requests.put(f"{self.base_url}/{endpoint}", headers=headers, json=data)
+        try:
+            headers = self.get_headers(auth)
+            response = requests.put(f"{self.base_url}/{endpoint}", headers=headers, json=data)
 
-        response.raise_for_status()
-        return response.json()
+            if response.status_code == 401:
+                print("Unauthorized")
+                return None
+            
+            if response.status_code == 404:
+                print("Not Found")
+                return None
+            
+            if response.status_code == 500:
+                print("Internal Server Error")
+                return None
+            
+            if response.status_code == 400:
+                print("Bad Request")
+
+            return response.json()
+        except:
+            return None
 
     def delete(self, endpoint, auth=True, files=False):
-        headers = self.get_headers(auth, files)
-        response = requests.delete(f"{self.base_url}/{endpoint}", headers=headers)
+        try:
+            headers = self.get_headers(auth, files)
+            response = requests.delete(f"{self.base_url}/{endpoint}", headers=headers)
 
-        response.raise_for_status()
-        return response.json()
+            if response.status_code == 401:
+                print("Unauthorized")
+                return None
+            
+            if response.status_code == 404:
+                print("Not Found")
+                return None
+            
+            if response.status_code == 500:
+                print("Internal Server Error")
+                return None
+            
+            if response.status_code == 400:
+                print("Bad Request")
+
+            return response.json()
+        except:
+            return None
     
 
 
