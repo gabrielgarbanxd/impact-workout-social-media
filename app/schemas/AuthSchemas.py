@@ -24,7 +24,8 @@ authRegisterSchema: dict = {
         "password": {"type": "string"},
         "name": {"type": "string"},
         "role": {"type": "integer", "enum": [1, 100]},
-        "gender": {"type": "string", "enum": ["male", "female", "other"]}
+        "gender": {"type": "string", "enum": ["male", "female", "other"]},
+        "birth_date": {"type": "string", "format": "date-time"},
     },
     "required": ["username", "email", "password"]
 }

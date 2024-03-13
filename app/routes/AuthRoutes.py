@@ -76,6 +76,16 @@ def register():
         'name': escape(data['name']),
         'role': data['role'],
         'gender': escape(data['gender']),
+        'birthdate': data['birthdate'],
+        'profile_picture': 'default.jpg',
+        'bio': '',
+        'links': {},
+        'private': False,
+        'vip': False,
+        'followers': [],
+        'body_measures': {},
+        'training_programs': [],
+        'following': [],
         'email_verified': False,
         'email_verification_code': Security.generate_verification_code()
     }
@@ -134,6 +144,18 @@ def resend_verification_code():
     send_verification_email(user['email'], user['email_verification_code'], user['username'])
 
     return jsonify({'success': True}), 200
+
+
+@auth.route('/forgot-password', methods=['POST'])
+def forgot_password():
+    pass
+
+
+@auth.route('/reset-password', methods=['POST'])
+def reset_password():
+    pass
+
+
 
 
 def send_verification_email(to, code, username):
