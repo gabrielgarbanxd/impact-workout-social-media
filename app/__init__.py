@@ -4,6 +4,7 @@ from app.routes.AuthRoutes import auth
 from app.routes.UserRoutes import users, adminUsers
 from app.routes.TrainingProgramRoutes import trainingPrograms
 from app.routes.TrainingsRoutes import trainings
+from app.routes.ExerciseRoutes import exercises
 
 
 app = Flask(__name__)
@@ -22,5 +23,6 @@ def init_app():
     app.register_blueprint(adminUsers)
     app.register_blueprint(trainingPrograms)
     app.register_blueprint(trainings)
+    app.register_blueprint(exercises)
 
     return app

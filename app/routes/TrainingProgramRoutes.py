@@ -43,6 +43,15 @@ def create():
     except Exception as e:
         return jsonify({'error': 'Invalid data'}), 400
     
+    #comrpobar que si el usuario no es vip no puede crear mas de 4 programas
+    user = repo.get_one(request.user_id)
+
+    if user['vip'] == False:
+        count = repo.count({'user_id': ObjectId(request.user_id)})
+        if count >= 4:
+            return jsonify({'error': 'Unauthorized'}), 401
+        
+    
     trainingProgram:dict ={
         "name": escape(data['name']),
         "description": escape(data['description']),
