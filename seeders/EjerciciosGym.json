@@ -1,889 +1,742 @@
 [
-    {
-        "clave": "",
-        "nombre": "Press de banca",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Sentadillas",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Dominadas",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto",
-        "musculo": "Espalda Baja",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Fondos en paralelas",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Pectorales"
-    },
-    {
-        "clave": "",
-        "nombre": "Press militar",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Remo con barra",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones de brazos",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Zancadas",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Curl de bíceps con barra",
-        "musculo": "Bíceps",
-        "musculo_secundario": "Antebrazos"
-    },
-    {
-        "clave": "",
-        "nombre": "Extensión de tríceps en polea alta",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Hombros"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevaciones laterales",
-        "musculo": "Hombros",
-        "musculo_secundario": "Trapecio"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de piernas",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Pull-ups",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Curl de bíceps con mancuernas",
-        "musculo": "Bíceps",
-        "musculo_secundario": "Antebrazos"
-    },
-    {
-        "clave": "",
-        "nombre": "Fondos en banco",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación de talones de pie",
-        "musculo": "Gemelos",
-        "musculo_secundario": "Sóleo"
-    },
-    {
-        "clave": "",
-        "nombre": "Pájaros",
-        "musculo": "Deltoides posterior",
-        "musculo_secundario": "Trapecio"
-    },
-    {
-        "clave": "",
-        "nombre": "Press de hombros con mancuernas",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto rumano",
-        "musculo": "Espalda Baja",
-        "musculo_secundario": "Isquiotibiales"
-    },
-    {
-        "clave": "",
-        "nombre": "Curl de bíceps en banco inclinado",
-        "musculo": "Bíceps",
-        "musculo_secundario": "Antebrazos"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de piernas inclinada",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Pull-ups con agarre cerrado",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Press de banca con mancuernas",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Sentadillas frontales",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Remo con mancuernas",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Extensiones de tríceps en polea baja",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Deltoides posterior"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación lateral con mancuerna",
-        "musculo": "Hombros",
-        "musculo_secundario": "Trapecio"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de piernas declinada",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Remo con barra T",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Fondos en anillas",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación de talones sentado",
-        "musculo": "Gemelos",
-        "musculo_secundario": "Sóleo"
-    },
-    {
-        "clave": "",
-        "nombre": "Encogimientos de hombros con barra",
-        "musculo": "Trapecio",
-        "musculo_secundario": "Deltoides"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de hombros",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Zancadas laterales",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Jalones al pecho",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones de brazos con palmada",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de piernas horizontal",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Encogimientos de hombros con mancuernas",
-        "musculo": "Trapecio",
-        "musculo_secundario": "Deltoides"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de hombros sentado",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Desplantes con mancuernas",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Pull-ups en barra fija",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones de brazos con apoyo",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de piernas inclinada con máquina",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Encogimientos de hombros con barra tras nuca",
-        "musculo": "Trapecio",
-        "musculo_secundario": "Deltoides"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de hombros tras nuca",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Desplantes con barra",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Dominadas cerradas",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones de brazos con lastre",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de piernas declinada con máquina",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa inclinada con barra",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación de gemelos sentado",
-        "musculo": "Gemelos",
-        "musculo_secundario": "Sóleo"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones en barra fija",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Desplantes con mancuernas",
-        "musculo": "Piernas",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación lateral con cable",
-        "musculo": "Hombros",
-        "musculo_secundario": "Trapecio"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto sumo",
-        "musculo": "Espalda",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Press de hombros en máquina",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Pullover con mancuerna",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Espalda"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto rumano con barra",
-        "musculo": "Espalda Baja",
-        "musculo_secundario": "Isquiotibiales"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de pecho en máquina",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevaciones frontales con barra",
-        "musculo": "Hombros",
-        "musculo_secundario": "Deltoides anterior"
-    },
-    {
-        "clave": "",
-        "nombre": "Zancadas con barra",
-        "musculo": "Cuádriceps",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Jalones al frente con polea",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Patada de tríceps con mancuerna",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Deltoides"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de hombros con polea",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones en V",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto convencional",
-        "musculo": "Espalda Baja",
-        "musculo_secundario": "Isquiotibiales"
-    },
-    {
-        "clave": "",
-        "nombre": "Press inclinado con mancuernas",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación lateral con polea",
-        "musculo": "Hombros",
-        "musculo_secundario": "Trapecio"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de pecho declinada en máquina",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Remo en polea baja",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Tríceps en polea alta",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Hombros"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación de talones en máquina",
-        "musculo": "Gemelos",
-        "musculo_secundario": "Sóleo"
-    },
-    {
-        "clave": "",
-        "nombre": "Fondos en paralelas con lastre",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Pectorales"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto sumo con mancuerna",
-        "musculo": "Espalda",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Aperturas en máquina",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación lateral con mancuernas",
-        "musculo": "Hombros",
-        "musculo_secundario": "Trapecio"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto sumo con barra",
-        "musculo": "Espalda",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Press de pecho con mancuernas en banco inclinado",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Pulldown con cuerda",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Patada de tríceps en polea alta",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Deltoides"
-    },
-    {
-        "clave": "",
-        "nombre": "Press de hombros con barra",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones hindúes",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación frontal con polea",
-        "musculo": "Hombros",
-        "musculo_secundario": "Deltoides anterior"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto convencional con mancuernas",
-        "musculo": "Espalda Baja",
-        "musculo_secundario": "Isquiotibiales"
-    },
-    {
-        "clave": "",
-        "nombre": "Pull-over con polea alta",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Espalda"
-    },
-    {
-        "clave": "",
-        "nombre": "Extensiones de tríceps en polea alta con cuerda",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Hombros"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de pecho con mancuernas en máquina",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Remo con barra en T",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Tríceps con barra en polea alta",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Hombros"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación de talones en máquina sentado",
-        "musculo": "Gemelos",
-        "musculo_secundario": "Sóleo"
-    },
-    {
-        "clave": "",
-        "nombre": "Fondos en máquina",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Pectorales"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto rumano con mancuernas",
-        "musculo": "Espalda Baja",
-        "musculo_secundario": "Isquiotibiales"
-    },
-    {
-        "clave": "",
-        "nombre": "Press de pecho con polea alta",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Pájaros con mancuernas",
-        "musculo": "Hombros",
-        "musculo_secundario": "Deltoides posterior"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones en diamante",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Encogimientos de hombros con barra en polea alta",
-        "musculo": "Trapecio",
-        "musculo_secundario": "Deltoides"
-    },
-    {
-        "clave": "",
-        "nombre": "Fondos en máquina con lastre",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Pectorales"
-    }, {
-        "clave": "",
-        "nombre": "Elevación lateral con máquina",
-        "musculo": "Hombros",
-        "musculo_secundario": "Trapecio"
-    },
-    {
-        "clave": "",
-        "nombre": "Press de pecho con polea baja",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Dominadas con lastre",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Tríceps con barra Z",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Hombros"
-    },
-    {
-        "clave": "",
-        "nombre": "Remo sentado en máquina",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Press militar con barra",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones con manos elevadas",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Curl de bíceps con polea baja",
-        "musculo": "Bíceps",
-        "musculo_secundario": "Antebrazos"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de pecho declinada con barra",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto rumano con barra Z",
-        "musculo": "Espalda Baja",
-        "musculo_secundario": "Isquiotibiales"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones con lastre",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación lateral con polea baja",
-        "musculo": "Hombros",
-        "musculo_secundario": "Trapecio"
-    },
-    {
-        "clave": "",
-        "nombre": "Jalones al frente con agarre cerrado",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Extensiones de tríceps en polea alta con barra recta",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Deltoides"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto con mancuernas",
-        "musculo": "Espalda Baja",
-        "musculo_secundario": "Isquiotibiales"
-    },
-    {
-        "clave": "",
-        "nombre": "Press francés con barra EZ",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Hombros"
-    },
-    {
-        "clave": "",
-        "nombre": "Curl de bíceps con barra recta",
-        "musculo": "Bíceps",
-        "musculo_secundario": "Antebrazos"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de hombros con polea baja",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Fondos en anillas con lastre",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Encogimientos de hombros con mancuernas de pie",
-        "musculo": "Trapecio",
-        "musculo_secundario": "Deltoides"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de pecho inclinada con mancuernas",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones en paralelas con lastre",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación frontal con mancuernas",
-        "musculo": "Hombros",
-        "musculo_secundario": "Deltoides anterior"
-    },
-    {
-        "clave": "",
-        "nombre": "Dominadas en V",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Tríceps en máquina",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Hombros"
-    },
-    {
-        "clave": "",
-        "nombre": "Remo al mentón",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Press de pecho inclinado con barra",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Curl de bíceps con mancuerna en banco inclinado",
-        "musculo": "Bíceps",
-        "musculo_secundario": "Antebrazos"
-    },
-    {
-        "clave": "",
-        "nombre": "Pulldown con agarre estrecho",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Press militar con mancuernas",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Flexiones en anillas",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación lateral con mancuerna",
-        "musculo": "Hombros",
-        "musculo_secundario": "Trapecio"
-    },
-    {
-        "clave": "",
-        "nombre": "Pulldown en polea baja",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Tríceps en polea alta con barra recta",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Hombros"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto sumo con mancuernas",
-        "musculo": "Espalda Baja",
-        "musculo_secundario": "Glúteos"
-    },
-    {
-        "clave": "",
-        "nombre": "Press de pecho con mancuernas en banco plano",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Dominadas pronadas",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Tríceps con cuerda en polea alta",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Hombros"
-    },
-    {
-        "clave": "",
-        "nombre": "Remo con barra T con agarre cerrado",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Curl de bíceps con polea alta",
-        "musculo": "Bíceps",
-        "musculo_secundario": "Antebrazos"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de pecho declinada en máquina",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Peso muerto rumano con barra",
-        "musculo": "Espalda Baja",
-        "musculo_secundario": "Isquiotibiales"
-    },
-    {
-        "clave": "",
-        "nombre": "Extensiones de tríceps en polea alta con barra en V",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Hombros"
-    },
-    {
-        "clave": "",
-        "nombre": "Fondos en paralelas con lastre",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Pectorales"
-    },
-    {
-        "clave": "",
-        "nombre": "Prensa de pecho inclinada en máquina",
-        "musculo": "Pectorales",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Pulldown con agarre supino",
-        "musculo": "Espalda",
-        "musculo_secundario": "Bíceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Curl de bíceps concentrado",
-        "musculo": "Bíceps",
-        "musculo_secundario": "Antebrazos"
-    },
-    {
-        "clave": "",
-        "nombre": "Press de hombros con mancuernas sentado",
-        "musculo": "Hombros",
-        "musculo_secundario": "Tríceps"
-    },
-    {
-        "clave": "",
-        "nombre": "Fondos en máquina declinada",
-        "musculo": "Tríceps",
-        "musculo_secundario": "Pectorales"
-    },
-    {
-        "clave": "",
-        "nombre": "Elevación frontal con barra",
-        "musculo": "Hombros",
-        "musculo_secundario": "Deltoides anterior"
-    }
+  {
+    "name": "Press de banca",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Sentadillas",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Dominadas",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Peso muerto",
+    "muscle": "Espalda Baja",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Fondos en paralelas",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Pectorales"
+  },
+  {
+    "name": "Press militar",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Remo con barra",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Flexiones de brazos",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Zancadas",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Curl de bíceps con barra",
+    "muscle": "Bíceps",
+    "secondary_muscle": "Antebrazos"
+  },
+  {
+    "name": "Extensión de tríceps en polea alta",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Hombros"
+  },
+  {
+    "name": "Elevaciones laterales",
+    "muscle": "Hombros",
+    "secondary_muscle": "Trapecio"
+  },
+  {
+    "name": "Prensa de piernas",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Pull-ups",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Curl de bíceps con mancuernas",
+    "muscle": "Bíceps",
+    "secondary_muscle": "Antebrazos"
+  },
+  {
+    "name": "Fondos en banco",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Elevación de talones de pie",
+    "muscle": "Gemelos",
+    "secondary_muscle": "Sóleo"
+  },
+  {
+    "name": "Pájaros",
+    "muscle": "Deltoides posterior",
+    "secondary_muscle": "Trapecio"
+  },
+  {
+    "name": "Press de hombros con mancuernas",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Peso muerto rumano",
+    "muscle": "Espalda Baja",
+    "secondary_muscle": "Isquiotibiales"
+  },
+  {
+    "name": "Curl de bíceps en banco inclinado",
+    "muscle": "Bíceps",
+    "secondary_muscle": "Antebrazos"
+  },
+  {
+    "name": "Prensa de piernas inclinada",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Pull-ups con agarre cerrado",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Press de banca con mancuernas",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Sentadillas frontales",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Remo con mancuernas",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Extensiones de tríceps en polea baja",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Deltoides posterior"
+  },
+  {
+    "name": "Elevación lateral con mancuerna",
+    "muscle": "Hombros",
+    "secondary_muscle": "Trapecio"
+  },
+  {
+    "name": "Prensa de piernas declinada",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Remo con barra T",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Fondos en anillas",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Elevación de talones sentado",
+    "muscle": "Gemelos",
+    "secondary_muscle": "Sóleo"
+  },
+  {
+    "name": "Encogimientos de hombros con barra",
+    "muscle": "Trapecio",
+    "secondary_muscle": "Deltoides"
+  },
+  {
+    "name": "Prensa de hombros",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Zancadas laterales",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Jalones al pecho",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Flexiones de brazos con palmada",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Prensa de piernas horizontal",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Encogimientos de hombros con mancuernas",
+    "muscle": "Trapecio",
+    "secondary_muscle": "Deltoides"
+  },
+  {
+    "name": "Prensa de hombros sentado",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Desplantes con mancuernas",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Pull-ups en barra fija",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Flexiones de brazos con apoyo",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Prensa de piernas inclinada con máquina",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Encogimientos de hombros con barra tras nuca",
+    "muscle": "Trapecio",
+    "secondary_muscle": "Deltoides"
+  },
+  {
+    "name": "Prensa de hombros tras nuca",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Desplantes con barra",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Dominadas cerradas",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Flexiones de brazos con lastre",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Prensa de piernas declinada con máquina",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Prensa inclinada con barra",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Elevación de gemelos sentado",
+    "muscle": "Gemelos",
+    "secondary_muscle": "Sóleo"
+  },
+  {
+    "name": "Flexiones en barra fija",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Desplantes con mancuernas",
+    "muscle": "Piernas",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Elevación lateral con cable",
+    "muscle": "Hombros",
+    "secondary_muscle": "Trapecio"
+  },
+  {
+    "name": "Peso muerto sumo",
+    "muscle": "Espalda",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Press de hombros en máquina",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Pullover con mancuerna",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Espalda"
+  },
+  {
+    "name": "Peso muerto rumano con barra",
+    "muscle": "Espalda Baja",
+    "secondary_muscle": "Isquiotibiales"
+  },
+  {
+    "name": "Prensa de pecho en máquina",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Elevaciones frontales con barra",
+    "muscle": "Hombros",
+    "secondary_muscle": "Deltoides anterior"
+  },
+  {
+    "name": "Zancadas con barra",
+    "muscle": "Cuádriceps",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Jalones al frente con polea",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Patada de tríceps con mancuerna",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Deltoides"
+  },
+  {
+    "name": "Prensa de hombros con polea",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Flexiones en V",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Peso muerto convencional",
+    "muscle": "Espalda Baja",
+    "secondary_muscle": "Isquiotibiales"
+  },
+  {
+    "name": "Press inclinado con mancuernas",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Elevación lateral con polea",
+    "muscle": "Hombros",
+    "secondary_muscle": "Trapecio"
+  },
+  {
+    "name": "Prensa de pecho declinada en máquina",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Remo en polea baja",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Tríceps en polea alta",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Hombros"
+  },
+  {
+    "name": "Elevación de talones en máquina",
+    "muscle": "Gemelos",
+    "secondary_muscle": "Sóleo"
+  },
+  {
+    "name": "Fondos en paralelas con lastre",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Pectorales"
+  },
+  {
+    "name": "Peso muerto sumo con mancuerna",
+    "muscle": "Espalda",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Aperturas en máquina",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Elevación lateral con mancuernas",
+    "muscle": "Hombros",
+    "secondary_muscle": "Trapecio"
+  },
+  {
+    "name": "Peso muerto sumo con barra",
+    "muscle": "Espalda",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Press de pecho con mancuernas en banco inclinado",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Pulldown con cuerda",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Patada de tríceps en polea alta",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Deltoides"
+  },
+  {
+    "name": "Press de hombros con barra",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Flexiones hindúes",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Elevación frontal con polea",
+    "muscle": "Hombros",
+    "secondary_muscle": "Deltoides anterior"
+  },
+  {
+    "name": "Peso muerto convencional con mancuernas",
+    "muscle": "Espalda Baja",
+    "secondary_muscle": "Isquiotibiales"
+  },
+  {
+    "name": "Pull-over con polea alta",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Espalda"
+  },
+  {
+    "name": "Extensiones de tríceps en polea alta con cuerda",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Hombros"
+  },
+  {
+    "name": "Prensa de pecho con mancuernas en máquina",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Remo con barra en T",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Tríceps con barra en polea alta",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Hombros"
+  },
+  {
+    "name": "Elevación de talones en máquina sentado",
+    "muscle": "Gemelos",
+    "secondary_muscle": "Sóleo"
+  },
+  {
+    "name": "Fondos en máquina",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Pectorales"
+  },
+  {
+    "name": "Peso muerto rumano con mancuernas",
+    "muscle": "Espalda Baja",
+    "secondary_muscle": "Isquiotibiales"
+  },
+  {
+    "name": "Press de pecho con polea alta",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Pájaros con mancuernas",
+    "muscle": "Hombros",
+    "secondary_muscle": "Deltoides posterior"
+  },
+  {
+    "name": "Flexiones en diamante",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Encogimientos de hombros con barra en polea alta",
+    "muscle": "Trapecio",
+    "secondary_muscle": "Deltoides"
+  },
+  {
+    "name": "Fondos en máquina con lastre",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Pectorales"
+  },
+  {
+    "name": "Elevación lateral con máquina",
+    "muscle": "Hombros",
+    "secondary_muscle": "Trapecio"
+  },
+  {
+    "name": "Press de pecho con polea baja",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Dominadas con lastre",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Tríceps con barra Z",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Hombros"
+  },
+  {
+    "name": "Remo sentado en máquina",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Press militar con barra",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Flexiones con manos elevadas",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Curl de bíceps con polea baja",
+    "muscle": "Bíceps",
+    "secondary_muscle": "Antebrazos"
+  },
+  {
+    "name": "Prensa de pecho declinada con barra",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Peso muerto rumano con barra Z",
+    "muscle": "Espalda Baja",
+    "secondary_muscle": "Isquiotibiales"
+  },
+  {
+    "name": "Flexiones con lastre",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Elevación lateral con polea baja",
+    "muscle": "Hombros",
+    "secondary_muscle": "Trapecio"
+  },
+  {
+    "name": "Jalones al frente con agarre cerrado",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Extensiones de tríceps en polea alta con barra recta",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Deltoides"
+  },
+  {
+    "name": "Peso muerto con mancuernas",
+    "muscle": "Espalda Baja",
+    "secondary_muscle": "Isquiotibiales"
+  },
+  {
+    "name": "Press francés con barra EZ",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Hombros"
+  },
+  {
+    "name": "Curl de bíceps con barra recta",
+    "muscle": "Bíceps",
+    "secondary_muscle": "Antebrazos"
+  },
+  {
+    "name": "Prensa de hombros con polea baja",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Fondos en anillas con lastre",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Encogimientos de hombros con mancuernas de pie",
+    "muscle": "Trapecio",
+    "secondary_muscle": "Deltoides"
+  },
+  {
+    "name": "Prensa de pecho inclinada con mancuernas",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Flexiones en paralelas con lastre",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Elevación frontal con mancuernas",
+    "muscle": "Hombros",
+    "secondary_muscle": "Deltoides anterior"
+  },
+  {
+    "name": "Dominadas en V",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Tríceps en máquina",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Hombros"
+  },
+  {
+    "name": "Remo al mentón",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Press de pecho inclinado con barra",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Curl de bíceps con mancuerna en banco inclinado",
+    "muscle": "Bíceps",
+    "secondary_muscle": "Antebrazos"
+  },
+  {
+    "name": "Pulldown con agarre estrecho",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Press militar con mancuernas",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Flexiones en anillas",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Elevación lateral con mancuerna",
+    "muscle": "Hombros",
+    "secondary_muscle": "Trapecio"
+  },
+  {
+    "name": "Pulldown en polea baja",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Tríceps en polea alta con barra recta",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Hombros"
+  },
+  {
+    "name": "Peso muerto sumo con mancuernas",
+    "muscle": "Espalda Baja",
+    "secondary_muscle": "Glúteos"
+  },
+  {
+    "name": "Press de pecho con mancuernas en banco plano",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Dominadas pronadas",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Tríceps con cuerda en polea alta",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Hombros"
+  },
+  {
+    "name": "Remo con barra T con agarre cerrado",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Curl de bíceps con polea alta",
+    "muscle": "Bíceps",
+    "secondary_muscle": "Antebrazos"
+  },
+  {
+    "name": "Prensa de pecho declinada en máquina",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Peso muerto rumano con barra",
+    "muscle": "Espalda Baja",
+    "secondary_muscle": "Isquiotibiales"
+  },
+  {
+    "name": "Extensiones de tríceps en polea alta con barra en V",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Hombros"
+  },
+  {
+    "name": "Fondos en paralelas con lastre",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Pectorales"
+  },
+  {
+    "name": "Prensa de pecho inclinada en máquina",
+    "muscle": "Pectorales",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Pulldown con agarre supino",
+    "muscle": "Espalda",
+    "secondary_muscle": "Bíceps"
+  },
+  {
+    "name": "Curl de bíceps concentrado",
+    "muscle": "Bíceps",
+    "secondary_muscle": "Antebrazos"
+  },
+  {
+    "name": "Press de hombros con mancuernas sentado",
+    "muscle": "Hombros",
+    "secondary_muscle": "Tríceps"
+  },
+  {
+    "name": "Fondos en máquina declinada",
+    "muscle": "Tríceps",
+    "secondary_muscle": "Pectorales"
+  },
+  {
+    "name": "Elevación frontal con barra",
+    "muscle": "Hombros",
+    "secondary_muscle": "Deltoides anterior"
+  }
 ]

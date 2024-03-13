@@ -11,11 +11,11 @@ class MongoRepository:
         self.collection = self.db[collection_name]
 
     def __add_updated_at(self, data):
-        data['updated_at'] = datetime.utcnow()
+        data['updated_at'] = datetime.now()
         return data
     
     def __add_created_at(self, data):
-        data['created_at'] = datetime.utcnow()
+        data['created_at'] = datetime.now()
         return data
 
     def paginate(self, query={}, projection={}, page=1, per_page=25, sort=None, descendind=True):
@@ -140,6 +140,10 @@ class MongoRepository:
     def insert(self, data):
         data_with_created_at = self.__add_created_at(data)
         return self.collection.insert_one(data_with_created_at)
+    
+    def insert_many(self, data):
+        data_with_created_at = list(map(self.__add_created_at, data))
+        return self.collection.insert_many(data_with_created_at)
 
 
     # =========>> UPDATE METHODS <<=========
