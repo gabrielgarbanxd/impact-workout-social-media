@@ -119,7 +119,7 @@ def verify_email_code():
 
         return jsonify({'error': 'Invalid code'}), 400
     
-    repo.update(user['_id'], {'email_verified': True, 'email_verification_code': None})
+    repo.update(str(user['_id']), {'email_verified': True, 'email_verification_code': None})
 
     encoded_token = Security.generate_token(user)
 
