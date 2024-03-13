@@ -71,7 +71,7 @@ def get_users():
     # solo se devuelven los usuarios que no son privados, y solo se devuelven los campos necesarios (username, profile_picture)
     users = repo.get_by_query_with_projection({'private': False}, {'username': 1, 'profile_picture': 1})
 
-    return Response(dumps(users), status=200, mimetype='application/json')
+    return Response(dumps(users), mimetype='application/json'), 200
 
 
 @users.route('/<string:id>', methods=['GET'])
@@ -83,7 +83,7 @@ def get_user(id):
     if not user or user['private']:
         return jsonify({'error': 'User not found'}), 404
     
-    return Response(dumps(user), status=200, mimetype='application/json')
+    return Response(dumps(user), mimetype='application/json'), 200
 
 
 
@@ -106,7 +106,7 @@ def get_user(id):
     if not user:
         return jsonify({'error': 'User not found'}), 404
 
-    return Response(dumps(user), status=200, mimetype='application/json')
+    return Response(dumps(user), mimetype='application/json'), 200
 
 
 
