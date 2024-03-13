@@ -98,7 +98,10 @@ def update(id):
     exercise['video'] = escape(data['video']) if 'video' in data else ''
     exercise['image'] = escape(data['image']) if 'image' in data else ''
 
-    repo.update(id, exercise)
+    result = repo.update(id, exercise)
+
+    if result.matched_count < 1:
+        return jsonify({'error': 'Not found'}), 404
 
     return jsonify({'success': True}), 200
 
