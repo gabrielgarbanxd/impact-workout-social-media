@@ -37,6 +37,9 @@ def login():
     if user is None:
         return jsonify({'error': 'User not found'}), 404
     
+    if user['email_verified'] == False:
+        return jsonify({'error': 'Email not verified'}), 400
+    
     if not bcrypt.checkpw(password.encode('utf-8'), user['password']):
         return jsonify({'error': 'Invalid credentials'}), 400
     
@@ -81,12 +84,10 @@ def register():
     result = repo.insert(user)
 
     user['_id'] = str(result.inserted_id)
-    
-    encoded_token = Security.generate_token(user)
 
     send_verification_email(user['email'], user['email_verification_code'], user['username'])
 
-    return jsonify({'success': True, 'token': encoded_token, 'role': user['role']}), 201
+    return jsonify({'success': True}), 201
 
 
 @auth.route('/verify-email-code', methods=['POST'])
@@ -110,7 +111,9 @@ def verify_email_code():
     
     repo.update(user['_id'], {'email_verified': True, 'email_verification_code': None})
 
-    return jsonify({'success': True}), 200
+    encoded_token = Security.generate_token(user)
+
+    return jsonify({'success': True, 'token': encoded_token, 'role': user['role']}), 200
 
 
 @auth.route('/resend-verification-code', methods=['POST'])
