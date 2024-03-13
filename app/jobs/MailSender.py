@@ -32,6 +32,8 @@ class MailSender:
 
                 self.server.send_message(message)
 
+                print(f"Email sent to {message['To']}")
+
                 break
             except Exception as e:
                 print(f"An error occurred while sending the email: {str(e)}")
@@ -44,12 +46,12 @@ class MailSender:
         self.server.starttls()
         self.server.login(self.email, self.password)
 
-    def send_mail(self, to, subject, body):
+    def send_mail(self, to, subject, body, is_html=False):
         message = MIMEMultipart()
         message['From'] = self.email
         message['To'] = to
         message['Subject'] = subject
-        message.attach(MIMEText(body, 'plain'))
+        message.attach(MIMEText(body, 'html' if is_html else 'plain'))
         self.queue.put(message)
 
         if not self.thread.is_alive():
@@ -57,6 +59,7 @@ class MailSender:
 
 
     def start(self):
+        self.thread = threading.Thread(target=self.send)
         self.thread.start()
 
 

@@ -84,7 +84,7 @@ def register():
     
     encoded_token = Security.generate_token(user)
 
-    current_app.mail_sender.send_mail(user['email'], 'Email Verification', f'Your verification code is: {user["email_verification_code"]}')
+    send_verification_email(user['email'], user['email_verification_code'], user['username'])
 
     return jsonify({'success': True, 'token': encoded_token, 'role': user['role']}), 201
 
@@ -128,6 +128,28 @@ def resend_verification_code():
     if 'email_verification_code' not in user:
         return jsonify({'error': 'User not found'}), 404
     
-    current_app.mail_sender.send_mail(user['email'], 'Email Verification', f'Your verification code is: {user["email_verification_code"]}')
+    send_verification_email(user['email'], user['email_verification_code'], user['username'])
 
     return jsonify({'success': True}), 200
+
+
+def send_verification_email(to, code, username):
+
+    html = f'''
+    <html lang="es">
+        <body style="font-family: Arial, sans-serif;">
+            <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+                <h2>Verificación de Código</h2>
+                <p>Estimado/a {username},</p>
+                <p>Por favor, ingresa el siguiente código de verificación para completar el proceso:</p>
+                <div style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">
+                    <h3 style="margin: 0;">Código de Verificación:</h3>
+                    <p style="font-size: 24px; font-weight: bold; margin: 10px 0; text-align: center;">{code}</p>
+                </div>
+            </div>
+        </body>
+    </html>
+    '''
+
+
+    current_app.mail_sender.send_mail(to, 'Email Verification', html, is_html=True)
