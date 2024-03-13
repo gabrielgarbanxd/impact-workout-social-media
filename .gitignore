@@ -1,0 +1,18 @@
+# Entornos virtuales (por ejemplo, creado con virtualenv o pipenv)
+venv/
+env/
+.venv/
+
+# Archivos de caché y compilados
+*.pyc
+__pycache__/
+
+# Archivos de configuración
+instance/
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y archivos de registro
+*.log

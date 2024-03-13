@@ -1,20 +1,13 @@
 from datetime import datetime, timedelta
-
-from bson import ObjectId
+import random
 from config import Config
 import jwt
 
-from app.repositories.MongoRepository import MongoRepository
-
 class Security:
 
-    # Constructor, puede recibir el repositorio de usuarios como argumento
-    def __init__(self):
-        pass
-
-    def generate_token(self, user) -> str:
+    def generate_token(user) -> str:
         payload = {
-            'exp': datetime.utcnow() + timedelta(hours=1),
+            'exp': datetime.now() + timedelta(hours=24),
             'id': user['_id'],
             'role': user['role'],
         }
@@ -23,5 +16,17 @@ class Security:
 
         return token
     
-    def revoke_token(self, user_id) -> None:
-        pass
+
+    def decode_token(token) -> dict|None:
+        try:
+            decoded = jwt.decode(token, Config.SECRET_KEY, algorithms=['HS256'])
+            return decoded
+        except jwt.ExpiredSignatureError:
+            return None
+        except jwt.InvalidTokenError:
+            return None
+        except Exception as e:
+            return None
+
+    def generate_verification_code() -> str:
+        return str(random.randint(100000, 999999))
