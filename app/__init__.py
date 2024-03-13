@@ -1,6 +1,7 @@
 from flask import Flask, jsonify
 from app.jobs.MailSender import MailSender
 from app.routes.AuthRoutes import auth
+from app.routes.UserRoutes import users, adminUsers
 
 
 app = Flask(__name__)
@@ -15,5 +16,7 @@ def init_app():
     app.mail_sender = MailSender()
 
     app.register_blueprint(auth)
+    app.register_blueprint(users)
+    app.register_blueprint(adminUsers)
 
     return app
